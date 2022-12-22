@@ -1,9 +1,9 @@
 """Constants class"""
 
 # Directories & Files
-CONFIG_FILE = 'config/config.json'
-CONFIG_SCHEMA = 'config/config.schema.json'
-LAYOUT_FILE = 'config/layout/w{}h{}.json'
+CONFIG_FILE = 'matrix/config.json'
+CONFIG_SCHEMA = 'matrix/config.schema.json'
+LAYOUT_FILE = 'matrix/coords/w{}h{}.json'
 LOG_FILE = 'led-stock-ticker.log'
 LOADING_IMAGE = 'assets/img/logo.png'
 ERROR_IMAGE = 'assets/img/error.png'
@@ -37,7 +37,7 @@ CURRENCY_EXCHANGE_URL = 'https://api.exchangerate.host/convert?from={}&to={}&amo
 
 # Image sources
 CRYPTO_LOGO_URL = 'https://cryptoicons.org/api/icon/{}/200'
-FLAG_URL = 'https://raw.githubusercontent.com/transferwise/currency-flags/master/src/flags/{}.png'
+FLAG_URL = 'https://raw.githubusercontent.com/transferwise/currency-flags/master/src/rectangular-flags/{}.png'
 
 # Date/Time Formatting
 DATE_FORMATS = [
